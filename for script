@@ -376,9 +376,9 @@ end)
 
 local NotificationHolder = SetProps(SetChildren(MakeElement("TFrame"), {
 	SetProps(MakeElement("List"), {
-		WindowConfig.Name = WindowConfig.Name or "Orion Libary"
+		HorizontalAlignment = Enum.HorizontalAlignment.Center,
 		SortOrder = Enum.SortOrder.LayoutOrder,
-		WindowConfig.IntroText = WindowConfig.IntroText or "Orion Libary"
+		VerticalAlignment = Enum.VerticalAlignment.Bottom,
 		Padding = UDim.new(0, 5)
 	})
 }), {
